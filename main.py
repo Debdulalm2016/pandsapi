@@ -8,7 +8,7 @@ CORS(app)
 
 @app.route("/", methods=['GET', 'POST'])
 def gdatapy_home():
-    return "<h1>GDATAPY HOME</h1><p>This is indication that site is active</p>"
+    return "<h1>PANDSAPI HOME</h1><p>This is indication that App is active</p>"
 
 @app.errorhandler(404)
 def page_not_found(e):
